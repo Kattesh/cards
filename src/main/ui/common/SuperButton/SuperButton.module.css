@@ -1,0 +1,140 @@
+.btn {
+    display: inline-block;
+    border: 1px solid #025fff;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #343a40;
+    font-family: inherit;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5;
+    transition: all 0.2s;
+}
+.btn:hover {
+    background-color: #357fff;
+    color: #fff;
+}
+.btn:disabled {
+    border: 1px solid rgba(0,0,0, .12);
+    font-weight: 500;
+    color: rgba(0,0,0, .3);
+    background-color: rgba(255,255,255, .6);
+    cursor: default;
+}
+.btn:disabled:hover {
+    background-color: rgba(255,255,255, .6);
+}
+
+/* Primary */
+.btn_primary {
+    background-color: #025fff;
+    border-color: #025fff;
+    color: #fff;
+}
+.btn_primary:hover {
+    background-color: #004cce;
+}
+.btn_outline_primary {
+    border-color: #025fff;
+    color: #025fff;
+}
+.btn_outline_primary:hover {
+    background-color: #025fff;
+}
+
+
+
+/* Success */
+.btn_success {
+    background-color: #2a9924;
+    border-color: #2a9924;
+    color: #fff;
+}
+.btn_success:hover {
+    background-color: #1f701a;
+}
+.btn_outline_success {
+    border-color: #2a9924;
+    color: #2a9924;
+}
+.btn_outline_success:hover {
+    background-color: #2a9924;
+}
+
+
+
+/* Danger */
+.btn_danger {
+    background-color: #ea2e41;
+    border-color: #ea2e41;
+    color: #fff;
+}
+.btn_danger:hover {
+    background-color: #d01528;
+}
+.btn_outline_danger {
+    border-color: #ea2e41;
+    color: #ea2e41;
+}
+.btn_outline_danger:hover {
+    background-color: #ea2e41;
+}
+
+
+
+/* Warning */
+.btn_warning {
+    background-color: #ffc907;
+    border-color: #ffc907;
+    color: #fff;
+}
+.btn_warning:hover {
+    background-color: #d3a500;
+}
+.btn_outline_warning {
+    border-color: #ffc907;
+    color: #ffc907;
+}
+.btn_outline_warning:hover {
+    background-color: #ffc907;
+}
+
+
+
+/* Dark */
+.btn_dark {
+    background-color: #343a40;
+    border-color: #343a40;
+    color: #fff;
+}
+.btn_dark:hover {
+    background-color: #1d2124;
+}
+.btn_outline_dark {
+    border-color: #343a40;
+    color: #343a40;
+}
+.btn_outline_dark:hover {
+    background-color: #343a40;
+}
+
+
+/* Sizes */
+.small {
+    padding: 4px 10px;
+    font-size: 13.5px;
+}
+.medium {
+    padding: 6px 16px;
+    font-size: 14px;
+}
+.large {
+    padding: 8px 22px;
+    font-size: 14px;
+}
+
+.upperCase {
+    text-transform: uppercase;
+    font-weight: 500;
+}
