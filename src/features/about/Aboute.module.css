@@ -1,0 +1,11 @@
+.item a {
+    margin: 10px;
+    color: #0a5599;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.item a.activeLink {
+    color: #e68a13;
+}

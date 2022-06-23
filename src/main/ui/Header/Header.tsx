@@ -3,6 +3,7 @@ import {NavLink} from "react-router-dom";
 import s from "./Header.module.css"
 import {PATH} from "../routes/RoutesList";
 
+// const setActive=({isActive}) => (isActive ? s.activeLink : '')
 
 export function Header() {
     return (
@@ -24,6 +25,10 @@ export function Header() {
             <div className={s.item}>
                 <NavLink to={PATH.passwordRecovery}
                          className={({isActive}) => (isActive ? s.activeLink : '')}>PasswordRecovery</NavLink>
+            </div>
+            <div className={s.item}>
+                <NavLink to={PATH.about}
+                         className={({isActive}) => (isActive ? s.activeLink : '')}>About</NavLink>
             </div>
         </nav>
     )

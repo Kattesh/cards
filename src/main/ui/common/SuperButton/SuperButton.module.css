@@ -1,6 +1,6 @@
 .btn {
     display: inline-block;
-    border: 1px solid #025fff;
+    border: 1px solid #184f79;
     background-color: transparent;
     border-radius: 4px;
     cursor: pointer;
@@ -12,7 +12,7 @@
     transition: all 0.2s;
 }
 .btn:hover {
-    background-color: #357fff;
+    background-color: #184f79;
     color: #fff;
 }
 .btn:disabled {
