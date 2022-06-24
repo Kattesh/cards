@@ -6,7 +6,7 @@ const Login = () => {
     // const location = useLocation()
     // const fromPage = location.state?.from?.pathname || '/'
     return (
-        <div>Login
+        <div><h2>Login</h2>
             {/*{fromPage}*/}
         </div>
     )

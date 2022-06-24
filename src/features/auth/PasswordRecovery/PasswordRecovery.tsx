@@ -2,7 +2,7 @@ import React from 'react'
 
 const PasswordRecovery = () => {
     return (
-        <div>PasswordRecovery</div>
+        <div><h2>PasswordRecovery</h2></div>
     )
 }
 

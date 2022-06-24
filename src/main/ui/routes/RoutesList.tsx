@@ -8,6 +8,7 @@ import Profile from '../../../features/profile/Profile'
 import {Error404} from "./Error/Error404";
 import {RequireAuth} from "../../../features/hoc/RequireAuth";
 import {About} from "../../../features/about/About";
+import Cards from "../../../features/cards/Cards";
 
 
 export const PATH = {
@@ -19,6 +20,7 @@ export const PATH = {
     componentsDemo: '/components-demo',
     error404: '/error404',
     about: '/about',
+    cards:'/cards',
 }
 
 export const RoutesList = () => {
@@ -29,6 +31,7 @@ export const RoutesList = () => {
                 <Route path={PATH.login} element={<Login/>}/>
                 <Route path={PATH.registration} element={<Registration/>}/>
                 <Route path={PATH.profile} element={<Profile/>}/>
+                <Route path={PATH.cards} element={<Cards/>}/>
                 <Route path={PATH.passwordRecovery} element={<PasswordRecovery/>}/>
                 <Route path={PATH.newPassword} element={<NewPassword/>}/>
                 <Route path={PATH.about} element={<About/>}>

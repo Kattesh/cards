@@ -1,9 +1,9 @@
 import React from 'react'
 import {useNavigate} from "react-router-dom";
 import SuperButton from "../../main/ui/common/SuperButton/SuperButton";
-import s from './Profile.module.css'
+import s from './Cards.module.css'
 
-const Profile = () => {
+const Cards = () => {
     const navigate = useNavigate()
     const goBack = () => navigate(-1)
     // const goForward=()=>navigate(1)
@@ -11,9 +11,9 @@ const Profile = () => {
     return (
         <div className={s.container}>
             <SuperButton onClick={goBack}>Go back</SuperButton>
-           <h2>Profile</h2>
+            <h2>Cards</h2>
         </div>
     )
 }
 
-export default Profile
+export default Cards

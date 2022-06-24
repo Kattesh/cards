@@ -12,6 +12,9 @@ export function Header() {
                 <NavLink to={PATH.profile} className={({isActive}) => (isActive ? s.activeLink : '')}>Profile</NavLink>
             </div>
             <div className={s.item}>
+                <NavLink to={PATH.cards} className={({isActive}) => (isActive ? s.activeLink : '')}>Cards</NavLink>
+            </div>
+            <div className={s.item}>
                 <NavLink to={PATH.login} className={({isActive}) => (isActive ? s.activeLink : '')}>Login</NavLink>
             </div>
             <div className={s.item}>

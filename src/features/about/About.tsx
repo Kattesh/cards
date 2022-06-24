@@ -7,7 +7,7 @@ export const About = () => {
     const navigate = useNavigate()
     const goBack = () => navigate(-1)
     return (
-        <div style={{margin: '40px', color: ' rgb(20, 74, 103)'}}>
+        <div style={{margin: '20px', color: ' rgb(20, 74, 103)'}}>
             <h1>About us</h1>
             <SuperButton onClick={goBack}>Go back</SuperButton>
             <ul>
